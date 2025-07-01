@@ -1,0 +1,27 @@
+﻿<Window
+    x:Class="DemoApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:carousel="clr-namespace:Carousel;assembly=Carousel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:DemoApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Border Padding="10">
+        <carousel:CarouselView ItemsSource="{Binding Datas}" ViewportWidth="500">
+            <carousel:CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <ContentPresenter
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Content="{TemplateBinding Content}" />
+                    </Grid>
+                </DataTemplate>
+            </carousel:CarouselView.ItemTemplate>
+        </carousel:CarouselView>
+    </Border>
+</Window>

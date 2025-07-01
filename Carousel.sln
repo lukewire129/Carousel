@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "DemoApp\DemoApp.csproj", "{C4786E0F-B38D-48A8-A5AC-DFB73A81E9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carousel", "Carousel\Carousel.csproj", "{02BB450A-D8BD-4232-961E-9467D665C19A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4786E0F-B38D-48A8-A5AC-DFB73A81E9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4786E0F-B38D-48A8-A5AC-DFB73A81E9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4786E0F-B38D-48A8-A5AC-DFB73A81E9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4786E0F-B38D-48A8-A5AC-DFB73A81E9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BB450A-D8BD-4232-961E-9467D665C19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BB450A-D8BD-4232-961E-9467D665C19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BB450A-D8BD-4232-961E-9467D665C19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BB450A-D8BD-4232-961E-9467D665C19A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3B85E3D-157D-4EE2-8AD9-BDA2105414CC}
+	EndGlobalSection
+EndGlobal
