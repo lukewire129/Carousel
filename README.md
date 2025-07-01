@@ -65,4 +65,9 @@ Free to use, modify, and redistribute for both personal and commercial projects.
 Feel free to open issues or submit pull requests for suggestions, bug reports, or improvements.
 Let’s make CarouselView better together!
 
+
+https://github.com/user-attachments/assets/ca6f613c-b1a3-4bb3-b2a5-72c029bba4af
+
+
+
 📘 This README is also available in [Korean](./README.ko.md)
